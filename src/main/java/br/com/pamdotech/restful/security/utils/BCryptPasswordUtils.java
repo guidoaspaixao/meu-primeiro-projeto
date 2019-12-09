@@ -1,4 +1,4 @@
-package br.com.pamdotech.restful.utils;
+package br.com.pamdotech.restful.security.utils;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

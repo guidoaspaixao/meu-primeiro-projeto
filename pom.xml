@@ -36,6 +36,11 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
@@ -45,12 +50,40 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
 		</dependency>
+		
+		
+		<!-- HikariCP: Usado para aprimorar o pool de conexão a base de dados -->
+		<dependency>
+	        <groupId>com.zaxxer</groupId>
+	        <artifactId>HikariCP</artifactId>
+	    </dependency>
+	    
+	    <!-- Swagger: Usado para disponibilizar uma robusta documentação sobre as API Restful  -->
+	    <dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+		</dependency>
 
+		<!-- Spring Devtools: Usado pois habilita diversos facilitadores para o Desenvolvimento  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		
+		<!-- jjwt: Antes o Spring não oferecia suporte ao JWT, logo faremos inicialmente com essa API para depois analisar o JWT do Spring  -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
 		</dependency>
 		
 		<dependency>

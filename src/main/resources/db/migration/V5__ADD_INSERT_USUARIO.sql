@@ -1,0 +1,2 @@
+INSERT INTO `usuario` (`email`,`perfil`,`senha`) VALUES ('usuario@pamdotech.com.br','ROLE_USUARIO', '$2a$10$9TLHhLxLtxEhUWwaMyX7Bu1xUOvNsZJkDyALsCK.QIGXmr1O84DGu');
+INSERT INTO `usuario` (`email`,`perfil`,`senha`) VALUES ('admin@pamdotech.com.br','ROLE_ADMIN', '$2a$10$qw0Ckuq9VcI00EuOY0ghiuM1O5xJfemSN1xDvURTMYrx16xhUYzMi');
