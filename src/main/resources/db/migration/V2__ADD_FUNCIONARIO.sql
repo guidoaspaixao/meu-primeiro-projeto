@@ -12,6 +12,5 @@ CREATE TABLE `funcionario` (
   `valor_hora` decimal(19,2) DEFAULT NULL,
   `empresa_id` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`),
   CONSTRAINT `FK4cm1kg523jlopyexjbmi6y54j` FOREIGN KEY (`empresa_id`) REFERENCES `empresa` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) 

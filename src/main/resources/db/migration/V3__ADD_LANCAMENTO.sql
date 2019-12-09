@@ -8,6 +8,5 @@ CREATE TABLE `lancamento` (
   `tipo` varchar(255) NOT NULL,
   `funcionario_id` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK46i4k5vl8wah7feutye9kbpi4` (`funcionario_id`),
   CONSTRAINT `FK46i4k5vl8wah7feutye9kbpi4` FOREIGN KEY (`funcionario_id`) REFERENCES `funcionario` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+)

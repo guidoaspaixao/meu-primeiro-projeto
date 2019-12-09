@@ -5,4 +5,4 @@ CREATE TABLE `empresa` (
   `data_criacao` datetime NOT NULL,
   `razao_social` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) 
