@@ -86,6 +86,12 @@
 			<version>0.9.1</version>
 		</dependency>
 		
+		<!-- ehcache: Biblioteca responsável por recuperar informações e armazena-la em caché, evitando assim execuções desnecessárias  -->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
